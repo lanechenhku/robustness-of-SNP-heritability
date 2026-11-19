@@ -1,0 +1,78 @@
+# Default deny: only analysis source code and root metadata
+*
+!*/
+!.gitignore
+!/README.md
+
+# Allowed source types
+!*.R
+!*.r
+!*.Rmd
+!*.py
+!*.ipynb
+!*.sh
+!*.pbs
+!*.Rproj
+!*.pyproject
+!*.pl
+!*.c
+!*.cpp
+
+# Documents, slides, manuscripts, and images
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.tex
+*.bib
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.bmp
+
+# Data and archives
+*.csv
+*.tsv
+*.txt
+*.RData
+*.rds
+*.rda
+*.bed
+*.bim
+*.fam
+*.npy
+*.spydata
+*.zip
+*.7z
+*.tar
+*.gz
+*.mdb
+*.h5
+
+# Local indexes, data/document trees, and third-party sources
+_本地资料索引.md
+data/
+docs/
+code/
+_来自Tim/
+third_party/
+
+# Caches and temporary files
+.ipynb_checkpoints/
+__pycache__/
+.Rproj.user/
+.Rhistory
+*.pyc
+*.o
+*.so
+.DS_Store
+~$*
+
+# Known zero-byte stray files under the local data archive
+data/cross-block-LD-regression/%
+data/cross-block-LD-regression/1)
